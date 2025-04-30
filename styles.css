@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+
+}
+
+body{
+    
+    background-color: var(--Yellow);
+    margin: 40px;
+    padding:40px;
+    font-family: "Fig Tree",  sans-serif
+   
+    
+}
+h1{
+   
+    font-style: bold;
+}
+.container{
+    background-color: var(--White);
+    margin: 0 auto;
+    width:300px;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 10px  10px var(--Gray950);
+    border: 2px  solid black;
+    font-weight: 400;
+    
+   
+}
+
+ .topImg{
+    
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning{
+    background-color: var(--Yellow);
+    width:50px;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size:11px;
+    font-weight: 800;
+}
+.datePublished{
+   
+    font-weight: 400;
+    
+}
+
+p{
+    color:var(--Gray500);
+    font-size: 16px;
+    line-height:1.5;
+}
+.author{
+    display: flex;
+    display:row;
+    
+}
+ .profilePic{
+    padding:10px;
+    width:10%;
+
+ }
